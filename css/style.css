@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+}
+
+.card{
+  width: calc(100% / 3 - 40px);
+  margin: 20px;
+  background-color: transparent;
+  border: 1px solid rgb(63, 63, 63);
+  cursor: pointer;
+}
+
+.card:hover{
+  border: 1px solid rgb(157, 157, 157);
+}
+
+h1, h5, h6{
+  color: white;
+}
